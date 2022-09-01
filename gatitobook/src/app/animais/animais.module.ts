@@ -15,11 +15,11 @@ import { NovoAnimalComponent } from './novo-animal/novo-animal.component';
 
 @NgModule({
   declarations: [
-    ListaAnimaisComponent,
     AnimalComponent,
-    GradeFotosAnimaisComponent,
     DetalheAnimalComponent,
     ComentariosComponent,
+    GradeFotosAnimaisComponent,
+    ListaAnimaisComponent,
     NovoAnimalComponent,
   ],
   imports: [CommonModule, AnimaisRoutingModule, CartaoModule, SharedModule],
